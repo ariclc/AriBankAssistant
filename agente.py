@@ -12,7 +12,7 @@ import os
 
 # Importações de Ferramentas (Tools) e Configuração Local
 from banco import listar_todas_contas,buscar_saldo
-from crud import abrir_conta, atualizar_saldo, fechar_conta
+from updates import abrir_conta, atualizar_saldo, fechar_conta
 from config import GOOGLE_API_KEY
 
 
