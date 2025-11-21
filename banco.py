@@ -1,7 +1,10 @@
-
+#--------------------------------------------------------
+#--------------------IMPORTAÇÕES---------------------
+#--------------------------------------------------------
 
 
 from langchain_core.tools import tool
+
 
 #--------------------------------------------------------
 #-------------------------BANCO--------------------------
@@ -9,7 +12,7 @@ from langchain_core.tools import tool
 
 
 
-
+#Banco com algumas contas pré definidas
 db_contas = {
     "João": {"saldo": 1000.00, "historico": ["Abertura de conta: +1000.00"]},
     "Maria": {"saldo": 500.50, "historico": ["Abertura de conta: +500.50"]},
