@@ -11,7 +11,7 @@ from agente import falar_com_agente
 
 
 
-print("\n"*20 + "="*50) # Adiciona uma linha superior
+print("\n" + "="*50) # Adiciona uma linha superior
 print("🤖 Ari Bank Assistent Iniciado 💰")
 print("="*50)
 
